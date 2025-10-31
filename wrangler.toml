@@ -1,0 +1,16 @@
+name = "creator-discovery-engine"
+main = "dist/index.js"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./dist"
+
+[[pages]]
+name = "creator-discovery-engine"
+entry-point = "./dist"
+
+# Environment variables (add your API keys here)
+# [vars]
+# TWITTER_API_KEY = "your-key"
+# LINKEDIN_API_KEY = "your-key"
+# REDDIT_API_KEY = "your-key"
